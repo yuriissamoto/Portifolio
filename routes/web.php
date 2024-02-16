@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Theme\LanguageController;
+use App\Http\Controllers\SnakeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,10 @@ use App\Http\Controllers\Theme\LanguageController;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/snake', [SnakeController::class, 'index'])->name('snake.index');
+
 
 
 Route::get('lang/{locale}', [LanguageController::class, 'setLocale'])->name('lang.switch');

@@ -199,13 +199,14 @@ return [
 
     "Table.toggleLanguageBtn" => "PT",
     "Table.DarkModeBtn" => "Light",
+    "Table.CVBtn" => "CV",
     "Table.HeaderbuttonLink.About" => "About",
     "Table.HeaderbuttonLink.Skills" => "Skills",
     "Table.HeaderbuttonLink.Projects" => "Projects",
-    "Table.HeaderbuttonLink.Experience" => "Experience",
-    "Table.Headerbody.Developer" => "Developer",
-    "Table.Headerbody.P1" => "Passionate about what I do",
-    "Table.Headerbody.P2" => "And a constant thirst for learning",
+    "Table.HeaderbuttonLink.Certificates" => "Certificates",
+    "Table.Headerbody.Developer" => "I'm a Developer.",
+    "Table.Headerbody.P1" => "Passionate about what I do!",
+    "Table.Headerbody.P2" => "And a constant thirst for learning!",
     "Table.AboutMetitle" => "About Me",
     "Table.AboutMeBody.P1" => "I'm a programmer who is passionate about what I do and has a constant thirst for learning.",
     "Table.AboutMeBody.P2" => "Even though I am relatively new to the industry, I am dedicated to improving my skills and knowledge.",
@@ -222,6 +223,11 @@ return [
     "Table.AboutMeBody.P5" => "My main focus is the programming area, where I constantly seek to learn and apply best practices to create efficient and scalable solutions.",
     "Table.Skilltitle" => "Skills",
     "Table.Projectstitle" => "Projects",
+    "Table.Certificates.Txt1" => "Validations / Filters / Deploy",
+    "Table.Certificates.Txt2" => "Forms",
+    "Table.Certificates.Txt3" => "Moving forward with CSS",
+    "Table.Certificates.Txt4" => "Dynamic pages",
+    "Table.Certificates.Txt5" => "Applications with MVC",
 
 
 

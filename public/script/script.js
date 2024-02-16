@@ -1,3 +1,5 @@
+// rolagem para as sections
+
 function scrollToSection(sectionId) {
     var targetSection = $(sectionId);
     if (targetSection.length) {
@@ -7,42 +9,13 @@ function scrollToSection(sectionId) {
     }
 };
 
+// movimento do mouse com luz
+
 document.addEventListener('mousemove', function(e) {
     var light = document.getElementById('light');
     light.style.left = e.pageX + 'px';
     light.style.top = e.pageY + 'px';
 });
-
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     // Seleciona o botão
-//     var toggleBtn = document.getElementById('toggleLanguageBtn');
-
-//     // Adiciona um ouvinte de eventos de clique ao botão
-//     toggleBtn.addEventListener('click', function() {
-//         // Obtém o idioma atual do botão
-//         var currentLanguage = toggleBtn.innerText.trim();
-
-//         // Alterna o idioma
-//         if (currentLanguage === 'English') {
-//             // Se for inglês, muda para português
-//             toggleBtn.innerText = 'Portuguese';
-//             // Redireciona para a rota do idioma português
-//             window.location.href = `{{ route('lang.switch', 'pt_BR') }}`;
-//         } else {
-//             // Se for português, muda para inglês
-//             toggleBtn.innerText = 'English';
-//             // Redireciona para a rota do idioma inglês
-//             window.location.href = "{{ route('lang.switch', 'en') }}";
-//         }
-//     });
-// });
-
-
-// document.getElementById('toggleLanguageBtn').addEventListener('click', function() {
-//     var switchLangUrl = this.getAttribute('data-lang-switch');
-//     window.location.href = switchLangUrl;
-// });
 
 // Obtenha o botão de alternância de idioma
 

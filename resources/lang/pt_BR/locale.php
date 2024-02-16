@@ -201,13 +201,14 @@ return [
 
     "Table.toggleLanguageBtn" => "EN",
     "Table.DarkModeBtn" => "Dark",
+    "Table.CVBtn" => "CV",
     "Table.HeaderbuttonLink.About" => "Sobre",
     "Table.HeaderbuttonLink.Skills" => "Habilidades",
     "Table.HeaderbuttonLink.Projects" => "Projetos",
-    "Table.HeaderbuttonLink.Experience" => "Experiências",
-    "Table.Headerbody.Developer" => "Desenvolvedora",
-    "Table.Headerbody.P1" => "Apaixonada pelo que faço",
-    "Table.Headerbody.P2" => "E uma Sede constante de aprendizado",
+    "Table.HeaderbuttonLink.Certificates" => "Certificados",
+    "Table.Headerbody.Developer" => "Sou Desenvolvedora.",
+    "Table.Headerbody.P1" => "Apaixonada pelo que faço!",
+    "Table.Headerbody.P2" => "E uma Sede constante de aprendizado!",
     "Table.AboutMetitle" => "Sobre mim",
     "Table.AboutMeBody.P1" => "Sou uma Programadora apaixonada pelo que faço e com uma sede constante de aprendizado.",
     "Table.AboutMeBody.P2" => "Mesmo sendo relativamente nova na indústria, estou dedicada a aprimorar minhas habilidades e conhecimentos.",
@@ -224,6 +225,11 @@ return [
     "Table.AboutMeBody.P5" => "Meu foco principal é a área de programação, onde busco constantemente aprender e aplicar as melhores práticas para criar soluções eficientes e escaláveis.",
     "Table.Skilltitle" => "Habilidades",
     "Table.Projectstitle" => "Projetos",
+    "Table.Certificates.Txt1" => "Validações / Filtros / Deploy",
+    "Table.Certificates.Txt2" => "Formulários",
+    "Table.Certificates.Txt3" => "Avançando no CSS",
+    "Table.Certificates.Txt4" => "Páginas dinâmicas",
+    "Table.Certificates.Txt5" => "Aplicações com MVC",
 
 
 
