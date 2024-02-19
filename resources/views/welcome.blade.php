@@ -207,13 +207,13 @@
                     <div class="projects__body">
                         <h2 class="projects__title2">Projetos Iniciais</h2>
                         <div data-aos="zoom-out-right" data-aos-delay="500" class="projects__initials">
-                            <a class="projects__link" href="https://github.com/yuriissamoto/SnakeGame.git">
+                            <a class="projects__link" href="https://yuriissamoto.github.io/snake/">
                                 <div class="projects__txt">Snake</div>
                                 <div class="projects__img"><img src="/img/projects/snake2.png"></div>
                             </a>
-                            <a class="projects__link" href="https://github.com/yuriissamoto/Aula-JavaScript-Robotron.git">
-                                <div class="projects__txt">Robotron</div>
-                                <div class="projects__img"><img class="projects__img2" src="/img/projects/robotron.png"></div>
+                            <a class="projects__link" href="https://yuriissamoto.github.io/FlappyBird/">
+                                <div class="projects__txt">Flappy Bird</div>
+                                <div class="projects__img"><img class="projects__img2" src="/img/projects/flappybird.png"></div>
                             </a>
                         </div>
                     </div>
