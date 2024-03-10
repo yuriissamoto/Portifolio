@@ -25,4 +25,4 @@ RUN a2enmod rewrite
 EXPOSE 80
 
 # Define o comando padrão a ser executado quando o contêiner for iniciado
-CMD ["php", "artisan", "serve"]
+CMD ["apache2-foreground"]
