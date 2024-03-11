@@ -22,7 +22,7 @@ RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cac
 RUN a2enmod rewrite
 
 # Expondo a porta 80 do contêiner
-EXPOSE 8000
+EXPOSE 8002
 
 # Define o comando padrão a ser executado quando o contêiner for iniciado
 CMD ["apache2-foreground"]
