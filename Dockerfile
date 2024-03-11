@@ -1,5 +1,5 @@
-# Usa a imagem oficial do PHP com Apache
-FROM php:8.2-apache
+# Usa a imagem oficial do PHP
+FROM php:8.2
 
 # Instala dependências necessárias
 RUN apt-get update && \
@@ -18,11 +18,11 @@ COPY . /var/www/html
 # Define as permissões necessárias para o Laravel
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 
-# Habilita o módulo Apache mod_rewrite
-RUN a2enmod rewrite
+# Define o diretório de trabalho
+WORKDIR /var/www/html
 
-# Expondo a porta 80 do contêiner
-EXPOSE 8002
+# Expondo a porta 8000
+EXPOSE 8000
 
 # Define o comando padrão a ser executado quando o contêiner for iniciado
-CMD ["php", "artisan", "serve"]
+CMD ["php", "artisan", "serve", "--host", "0.0.0.0", "--port", "8000"]
