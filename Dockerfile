@@ -25,4 +25,4 @@ RUN a2enmod rewrite
 EXPOSE 8002
 
 # Define o comando padrão a ser executado quando o contêiner for iniciado
-CMD ["php", "artisan", "serve"]
+CMD ["php", "artisan", "serve", "0.0.0.0:8000"]
