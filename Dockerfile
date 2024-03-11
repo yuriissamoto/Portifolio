@@ -1,5 +1,5 @@
 # Usa a imagem oficial do PHP com Apache
-FROM php:7.4-apache
+FROM php:8.2-apache
 
 # Instala dependências necessárias
 RUN apt-get update && \
