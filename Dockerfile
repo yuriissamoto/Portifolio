@@ -25,4 +25,4 @@ WORKDIR /var/www/html
 EXPOSE 8002
 
 # Define o comando padrão a ser executado quando o contêiner for iniciado
-CMD ["php", "artisan", "serve", "--host", "0.0.0.0", "--port", "8002"]
+CMD ["php", "artisan", "serve", "--host", "0.0.0.0", "--port", "8000"]
