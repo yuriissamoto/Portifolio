@@ -22,7 +22,7 @@ RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cac
 WORKDIR /var/www/html
 
 # Expondo a porta 8000
-EXPOSE 8000
+EXPOSE 8002
 
 # Define o comando padrão a ser executado quando o contêiner for iniciado
-CMD ["php", "artisan", "serve", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["php", "artisan", "serve", "--host", "0.0.0.0", "--port", "8002"]
